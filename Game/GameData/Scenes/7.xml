@@ -1,0 +1,3397 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="1861.6" />
+	<attribute name="Next Replicated Node ID" value="202" />
+	<attribute name="Next Replicated Component ID" value="202" />
+	<attribute name="Next Local Node ID" value="16777216" />
+	<attribute name="Next Local Component ID" value="16777216" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="Octree" id="1" />
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="DirectionalLight" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="0.884784 0.399593 0.239756 -0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="2">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Color" value="0.6 0.6 0.4 1" />
+		</component>
+	</node>
+	<node id="3">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Zone" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="3">
+			<attribute name="Bounding Box Min" value="-1000 -1000 -1000" />
+			<attribute name="Bounding Box Max" value="1000 1000 1000" />
+			<attribute name="Ambient Color" value="0.4 0.4 0.6 1" />
+			<attribute name="Fog Color" value="0.8 0.5 0.4 1" />
+		</component>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Container" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="ContainerLogic" id="4">
+			<attribute name="Turns" value="3" />
+		</component>
+		<node id="7">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.92365 3.89686 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0529633 0.0257845 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000425522 0.00765858 0" />
+			</attribute>
+			<component type="StaticModel" id="7">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="8">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.99155 -4.84653 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.017312 -0.0899096 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00566365 0.00921677 0" />
+			</attribute>
+			<component type="StaticModel" id="8">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="9">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.27139 -5.36007 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.028821 -0.144593 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00445487 0.00576706 0" />
+			</attribute>
+			<component type="StaticModel" id="9">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="10">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.67552 2.68325 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0424395 -0.0556793 0" />
+				<variant hash="273365031" type="Vector3" value="0.00507169 0.00743542 0" />
+			</attribute>
+			<component type="StaticModel" id="10">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="11">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.43751 -3.2049 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0962887 -0.0111927 0" />
+				<variant hash="273365031" type="Vector3" value="0.00329495 0.00892517 0" />
+			</attribute>
+			<component type="StaticModel" id="11">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="12">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.02426 -4.64695 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0087676 0.0359274 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00671293 0.00100013 0" />
+			</attribute>
+			<component type="StaticModel" id="12">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="13">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.29984 1.48144 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0160255 -0.0288388 0" />
+				<variant hash="273365031" type="Vector3" value="0.0198886 -0.0172505 0" />
+			</attribute>
+			<component type="StaticModel" id="13">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="14">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.15652 1.25968 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.121183 0.201396 0" />
+				<variant hash="273365031" type="Vector3" value="0.0178433 -0.00680462 0" />
+			</attribute>
+			<component type="StaticModel" id="14">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="15">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.23698 4.64382 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.115905 -0.178665 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0148315 -0.00326803 0" />
+			</attribute>
+			<component type="StaticModel" id="15">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="16">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.292 0.280695 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0234032 -0.145092 0" />
+				<variant hash="273365031" type="Vector3" value="0.0139134 0.0282585 0" />
+			</attribute>
+			<component type="StaticModel" id="16">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="17">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.83043 -5.60434 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.109359 -0.0567484 0" />
+				<variant hash="273365031" type="Vector3" value="0.00429091 0.00792514 0" />
+			</attribute>
+			<component type="StaticModel" id="17">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="18">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.35009 3.30471 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.207044 0.189935 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0020867 0.0147082 0" />
+			</attribute>
+			<component type="StaticModel" id="18">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="19">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.25052 0.624933 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0118761 0.115996 0" />
+				<variant hash="273365031" type="Vector3" value="2.67695e-05 0.00459691 0" />
+			</attribute>
+			<component type="StaticModel" id="19">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="20">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.78963 -2.70256 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.000669479 0.00865907 0" />
+				<variant hash="273365031" type="Vector3" value="0.00405098 -0.00967128 0" />
+			</attribute>
+			<component type="StaticModel" id="20">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="21">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.03635 -3.74595 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0139198 -0.0327568 0" />
+				<variant hash="273365031" type="Vector3" value="0.00183551 -0.0039124 0" />
+			</attribute>
+			<component type="StaticModel" id="21">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="22">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.2832 -0.497617 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.182907 0.0112491 0" />
+				<variant hash="273365031" type="Vector3" value="0.00754581 0.00784114 0" />
+			</attribute>
+			<component type="StaticModel" id="22">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="23">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.24572 -3.27871 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0476126 0.0231379 0" />
+				<variant hash="273365031" type="Vector3" value="0.00267599 0.00283069 0" />
+			</attribute>
+			<component type="StaticModel" id="23">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="24">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.687531 3.95957 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0199223 -0.0384974 0" />
+				<variant hash="273365031" type="Vector3" value="0.00241149 0.0037867 0" />
+			</attribute>
+			<component type="StaticModel" id="24">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="25">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.818847 6.23611 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.00571823 -0.14036 0" />
+				<variant hash="273365031" type="Vector3" value="0.00246106 -0.00289791 0" />
+			</attribute>
+			<component type="StaticModel" id="25">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="26">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.76717 4.10766 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.154402 -0.108687 0" />
+				<variant hash="273365031" type="Vector3" value="0.024495 0.00309779 0" />
+			</attribute>
+			<component type="StaticModel" id="26">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="27">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.12058 -3.63658 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.105685 -0.167843 0" />
+				<variant hash="273365031" type="Vector3" value="-8.55139e-05 -0.00467779 0" />
+			</attribute>
+			<component type="StaticModel" id="27">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="28">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.07228 2.27404 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0203982 -0.147805 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0222812 0.0160255 0" />
+			</attribute>
+			<component type="StaticModel" id="28">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="29">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.19937 -1.04795 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0450354 0.00305367 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00472506 0.00415158 0" />
+			</attribute>
+			<component type="StaticModel" id="29">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="30">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.605623 -6.25236 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0169594 0.0671082 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000926794 -0.0103958 0" />
+			</attribute>
+			<component type="StaticModel" id="30">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="31">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.34034 3.31249 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0523291 -0.0212116 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00281812 0.00272509 0" />
+			</attribute>
+			<component type="StaticModel" id="31">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="32">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.52418 -3.01501 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.23767 -0.0482063 0" />
+				<variant hash="273365031" type="Vector3" value="0.00957267 -0.00259583 0" />
+			</attribute>
+			<component type="StaticModel" id="32">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="33">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.78479 -2.46357 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0515251 0.00997305 0" />
+				<variant hash="273365031" type="Vector3" value="0.00110685 0.0090582 0" />
+			</attribute>
+			<component type="StaticModel" id="33">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="34">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.56683 -0.799258 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0230883 -0.0178751 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0092279 -0.00579811 0" />
+			</attribute>
+			<component type="StaticModel" id="34">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="35">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.44427 1.73101 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.147618 -0.00433159 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000986063 0.00307565 0" />
+			</attribute>
+			<component type="StaticModel" id="35">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="36">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.11261 5.46111 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0122499 -0.0706329 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0172968 0.000479262 0" />
+			</attribute>
+			<component type="StaticModel" id="36">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="37">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.00635 5.51697 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0823398 -0.109838 0" />
+				<variant hash="273365031" type="Vector3" value="0.0116247 -0.00793333 0" />
+			</attribute>
+			<component type="StaticModel" id="37">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="38">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.1675 -5.89433 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0261464 -0.0810013 0" />
+				<variant hash="273365031" type="Vector3" value="0.00781439 -0.00667963 0" />
+			</attribute>
+			<component type="StaticModel" id="38">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="39">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.69587 2.9763 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.040645 0.0322476 0" />
+				<variant hash="273365031" type="Vector3" value="0.00495905 -0.0127782 0" />
+			</attribute>
+			<component type="StaticModel" id="39">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="40">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.01017 5.40759 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0123695 0.0258718 0" />
+				<variant hash="273365031" type="Vector3" value="0.00469595 0.0059392 0" />
+			</attribute>
+			<component type="StaticModel" id="40">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="41">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.94161 -2.09216 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0101013 -0.197165 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00973363 -0.0267246 0" />
+			</attribute>
+			<component type="StaticModel" id="41">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="42">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.50188 -4.38293 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.241225 -0.103677 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0119567 -0.00525382 0" />
+			</attribute>
+			<component type="StaticModel" id="42">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="43">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.72992 5.06662 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0813313 -0.0900545 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00266332 -0.0117739 0" />
+			</attribute>
+			<component type="StaticModel" id="43">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="44">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.27069 -1.96652 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.00847077 -0.0320569 0" />
+				<variant hash="273365031" type="Vector3" value="0.00374524 -0.0127423 0" />
+			</attribute>
+			<component type="StaticModel" id="44">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="45">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.02506 5.02101 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0443504 0.0123584 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00239453 -0.00049653 0" />
+			</attribute>
+			<component type="StaticModel" id="45">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="46">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.26306 -5.25576 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0367349 -0.0471727 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0219971 -0.00267201 0" />
+			</attribute>
+			<component type="StaticModel" id="46">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="47">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.0746 2.23479 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0230584 -0.023521 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0117077 0.00554402 0" />
+			</attribute>
+			<component type="StaticModel" id="47">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="48">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.96996 1.95657 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0404606 -0.252905 0" />
+				<variant hash="273365031" type="Vector3" value="0.00926224 0.00437329 0" />
+			</attribute>
+			<component type="StaticModel" id="48">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="49">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.098757 -6.27566 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0277503 -0.0657454 0" />
+				<variant hash="273365031" type="Vector3" value="0.00060839 -0.0128614 0" />
+			</attribute>
+			<component type="StaticModel" id="49">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="50">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.76229 -0.0188419 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.00320387 0.0515623 0" />
+				<variant hash="273365031" type="Vector3" value="0.0138427 -0.00207233 0" />
+			</attribute>
+			<component type="StaticModel" id="50">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="51">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.0859548 6.29018 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0154054 0.0569344 0" />
+				<variant hash="273365031" type="Vector3" value="0.0160579 0.00237317 0" />
+			</attribute>
+			<component type="StaticModel" id="51">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="52">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.69557 2.65749 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.136973 -0.0571985 0" />
+				<variant hash="273365031" type="Vector3" value="0.00202145 0.00854309 0" />
+			</attribute>
+			<component type="StaticModel" id="52">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="53">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.7646 4.65824 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.039925 0.0421698 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0080802 -0.000520999 0" />
+			</attribute>
+			<component type="StaticModel" id="53">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="54">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.94475 0.0818381 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.106473 0.0422899 0" />
+				<variant hash="273365031" type="Vector3" value="-0.014598 -0.000457683 0" />
+			</attribute>
+			<component type="StaticModel" id="54">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="55">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.64474 5.11904 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.085701 -0.143663 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00596961 0.00272517 0" />
+			</attribute>
+			<component type="StaticModel" id="55">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="56">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.805947 -6.22475 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0564072 -0.139347 0" />
+				<variant hash="273365031" type="Vector3" value="0.000985428 -0.0127088 0" />
+			</attribute>
+			<component type="StaticModel" id="56">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="57">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.10733 -3.72635 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0272489 -0.0094046 0" />
+				<variant hash="273365031" type="Vector3" value="0.0114927 0.00795417 0" />
+			</attribute>
+			<component type="StaticModel" id="57">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="58">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.564517 5.45164 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0586909 0.0298296 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00682226 -0.000908142 0" />
+			</attribute>
+			<component type="StaticModel" id="58">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="59">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.15777 -1.34094 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.00850677 0.0136647 0" />
+				<variant hash="273365031" type="Vector3" value="0.0109748 0.000645401 0" />
+			</attribute>
+			<component type="StaticModel" id="59">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="60">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.27979 1.17701 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0371476 0.194475 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0133426 -0.00656122 0" />
+			</attribute>
+			<component type="StaticModel" id="60">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="61">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.42249 -5.25323 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0644846 -0.049387 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0100018 -0.000614093 0" />
+			</attribute>
+			<component type="StaticModel" id="61">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="62">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.44419 -3.14758 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.120199 -0.0045414 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00328276 0.00242115 0" />
+			</attribute>
+			<component type="StaticModel" id="62">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="63">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.85815 -4.96597 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0110159 -0.0730867 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00546053 -0.00279198 0" />
+			</attribute>
+			<component type="StaticModel" id="63">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="64">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.41854 6.13038 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.102206 0.0601463 0" />
+				<variant hash="273365031" type="Vector3" value="0.0176412 0.00219985 0" />
+			</attribute>
+			<component type="StaticModel" id="64">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="65">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.33242 1.46343 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0051055 0.0327906 0" />
+				<variant hash="273365031" type="Vector3" value="0.0122382 0.00778347 0" />
+			</attribute>
+			<component type="StaticModel" id="65">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="66">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.14018 1.33024 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0322695 0.0205662 0" />
+				<variant hash="273365031" type="Vector3" value="0.00254194 -0.00488935 0" />
+			</attribute>
+			<component type="StaticModel" id="66">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="67">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.566154 -5.40765 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.036464 -0.0587668 0" />
+				<variant hash="273365031" type="Vector3" value="0.00316644 0.0100607 0" />
+			</attribute>
+			<component type="StaticModel" id="67">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="68">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.78742 -4.48484 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0125348 -0.0941565 0" />
+				<variant hash="273365031" type="Vector3" value="0.00945181 0.00971211 0" />
+			</attribute>
+			<component type="StaticModel" id="68">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="69">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.30376 -6.14139 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0800283 0.168509 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00581959 0.00613336 0" />
+			</attribute>
+			<component type="StaticModel" id="69">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="70">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.51138 -1.66182 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0472042 -0.0681045 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00706283 0.0101845 0" />
+			</attribute>
+			<component type="StaticModel" id="70">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="71">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.46305 4.4259 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0260639 0.0116682 0" />
+				<variant hash="273365031" type="Vector3" value="0.00578477 0.0017859 0" />
+			</attribute>
+			<component type="StaticModel" id="71">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="72">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.80988 -1.11082 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.123668 -0.0221957 0" />
+				<variant hash="273365031" type="Vector3" value="0.00376122 0.0171067 0" />
+			</attribute>
+			<component type="StaticModel" id="72">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="73">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.34771 5.82647 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.101798 0.013669 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00263848 -0.0135008 0" />
+			</attribute>
+			<component type="StaticModel" id="73">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="74">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.49691 -6.09722 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0651882 -0.121515 0" />
+				<variant hash="273365031" type="Vector3" value="0.0159222 -0.00200265 0" />
+			</attribute>
+			<component type="StaticModel" id="74">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="75">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.234961 -3.86005 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0579956 -0.0435531 0" />
+				<variant hash="273365031" type="Vector3" value="0.00631533 0.00804579 0" />
+			</attribute>
+			<component type="StaticModel" id="75">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="76">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.680926 6.25822 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0868684 -0.0192356 0" />
+				<variant hash="273365031" type="Vector3" value="0.0161492 -0.000716149 0" />
+			</attribute>
+			<component type="StaticModel" id="76">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="77">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.53934 0.13259 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0241981 -0.0557566 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0124307 0.0032632 0" />
+			</attribute>
+			<component type="StaticModel" id="77">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="78">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.88155 2.67622 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.019175 0.0429987 0" />
+				<variant hash="273365031" type="Vector3" value="0.0073814 -0.0045351 0" />
+			</attribute>
+			<component type="StaticModel" id="78">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="79">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.71787 2.75293 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0673312 -0.0576747 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0129057 -0.00252461 0" />
+			</attribute>
+			<component type="StaticModel" id="79">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="80">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.0595415 4.77735 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0026288 0.0552477 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00739586 0.00484313 0" />
+			</attribute>
+			<component type="StaticModel" id="80">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="81">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.65023 -5.68957 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0453925 0.0443754 0" />
+				<variant hash="273365031" type="Vector3" value="0.00204949 0.0114904 0" />
+			</attribute>
+			<component type="StaticModel" id="81">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="82">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.12994 2.45814 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.15006 0.00243139 0" />
+				<variant hash="273365031" type="Vector3" value="0.00816328 0.00280969 0" />
+			</attribute>
+			<component type="StaticModel" id="82">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="83">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.383802 -5.39947 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0384295 0.0499692 0" />
+				<variant hash="273365031" type="Vector3" value="0.00720929 0.00824926 0" />
+			</attribute>
+			<component type="StaticModel" id="83">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="84">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.263403 5.45101 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0570523 -0.0526311 0" />
+				<variant hash="273365031" type="Vector3" value="0.0134303 -0.000180269 0" />
+			</attribute>
+			<component type="StaticModel" id="84">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="85">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.03326 -1.76344 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0941286 0.0729499 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00178287 -0.003875 0" />
+			</attribute>
+			<component type="StaticModel" id="85">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="86">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.55887 -4.11246 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.00945064 0.0834566 0" />
+				<variant hash="273365031" type="Vector3" value="0.00610169 0.00182216 0" />
+			</attribute>
+			<component type="StaticModel" id="86">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="87">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.29273 -4.84841 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0659344 -0.0186652 0" />
+				<variant hash="273365031" type="Vector3" value="0.014301 -0.000721153 0" />
+			</attribute>
+			<component type="StaticModel" id="87">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="88">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.32761 -3.05736 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.00499859 0.0662945 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000273015 -0.00945092 0" />
+			</attribute>
+			<component type="StaticModel" id="88">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="89">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.775338 -4.53455 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0555711 0.0109925 0" />
+				<variant hash="273365031" type="Vector3" value="0.00652545 0.00872423 0" />
+			</attribute>
+			<component type="StaticModel" id="89">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="90">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.05735 3.64613 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.00361287 0.091492 0" />
+				<variant hash="273365031" type="Vector3" value="0.00469536 0.00287692 0" />
+			</attribute>
+			<component type="StaticModel" id="90">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="91">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.09806 3.65471 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.185565 0.228097 0" />
+				<variant hash="273365031" type="Vector3" value="0.00153808 -0.0195875 0" />
+			</attribute>
+			<component type="StaticModel" id="91">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="92">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.59196 -3.94209 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.07421 0.020219 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00070348 -0.0104151 0" />
+			</attribute>
+			<component type="StaticModel" id="92">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="93">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.88271 0.129086 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0648819 0.236901 0" />
+				<variant hash="273365031" type="Vector3" value="0.0104343 -0.00557196 0" />
+			</attribute>
+			<component type="StaticModel" id="93">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="94">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.28269 -1.71044 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0288224 -0.0814642 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0028706 -0.00305009 0" />
+			</attribute>
+			<component type="StaticModel" id="94">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="95">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.48332 0.271275 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0535029 -0.0797926 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00176624 -0.00848326 0" />
+			</attribute>
+			<component type="StaticModel" id="95">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="96">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.89302 -0.312388 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0708032 -0.0767456 0" />
+				<variant hash="273365031" type="Vector3" value="0.0053711 0.00604817 0" />
+			</attribute>
+			<component type="StaticModel" id="96">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="97">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.21155 -2.16936 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0323071 0.0376391 0" />
+				<variant hash="273365031" type="Vector3" value="0.0071287 0.0095777 0" />
+			</attribute>
+			<component type="StaticModel" id="97">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="98">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.77338 -0.645265 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.176803 -0.117323 0" />
+				<variant hash="273365031" type="Vector3" value="0.0180531 -0.0158587 0" />
+			</attribute>
+			<component type="StaticModel" id="98">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="99">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.9947 2.06085 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.00683082 0.0155749 0" />
+				<variant hash="273365031" type="Vector3" value="0.0118277 0.00734591 0" />
+			</attribute>
+			<component type="StaticModel" id="99">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="100">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.62299 2.88596 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.046117 -0.0218814 0" />
+				<variant hash="273365031" type="Vector3" value="0.00194795 0.00888625 0" />
+			</attribute>
+			<component type="StaticModel" id="100">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="101">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.28394 -0.0861489 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0138769 0.0197193 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00115796 0.00646079 0" />
+			</attribute>
+			<component type="StaticModel" id="101">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="102">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.0810614 2.0641 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0305587 -0.0772085 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0119231 -0.0237361 0" />
+			</attribute>
+			<component type="StaticModel" id="102">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="103">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.36003 1.4954 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0175939 -0.0112731 0" />
+				<variant hash="273365031" type="Vector3" value="0.0209435 0.0214796 0" />
+			</attribute>
+			<component type="StaticModel" id="103">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="104">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.34265 -3.43554 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0580555 0.00705767 0" />
+				<variant hash="273365031" type="Vector3" value="0.0113859 0.00426878 0" />
+			</attribute>
+			<component type="StaticModel" id="104">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="105">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.48991 3.18011 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.159009 0.0452766 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0034965 -0.000730131 0" />
+			</attribute>
+			<component type="StaticModel" id="105">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="106">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.49569 0.611425 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0331482 0.00478417 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00809936 -0.00130048 0" />
+			</attribute>
+			<component type="StaticModel" id="106">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="107">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.53739 -5.2311 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0506917 -0.0120602 0" />
+				<variant hash="273365031" type="Vector3" value="0.0013346 0.00195011 0" />
+			</attribute>
+			<component type="StaticModel" id="107">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="108">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.442837 -3.15449 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0633048 0.0209682 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00407237 0.00612984 0" />
+			</attribute>
+			<component type="StaticModel" id="108">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="109">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.29897 1.23867 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0873017 0.043036 0" />
+				<variant hash="273365031" type="Vector3" value="0.00966218 -0.0152193 0" />
+			</attribute>
+			<component type="StaticModel" id="109">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="110">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.76685 6.02938 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0786543 0.0546227 0" />
+				<variant hash="273365031" type="Vector3" value="0.00424533 -0.00175566 0" />
+			</attribute>
+			<component type="StaticModel" id="110">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="111">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.02592 -1.25566 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.020479 0.0680491 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00810568 0.01149 0" />
+			</attribute>
+			<component type="StaticModel" id="111">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="112">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.99988 -5.95745 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0643024 0.201662 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00877912 0.00812371 0" />
+			</attribute>
+			<component type="StaticModel" id="112">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="113">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.45964 1.54286 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0739288 0.0704835 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0163128 -0.0182633 0" />
+			</attribute>
+			<component type="StaticModel" id="113">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="114">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.6401 0.767734 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0542381 -0.0214344 0" />
+				<variant hash="273365031" type="Vector3" value="0.000754972 0.000326699 0" />
+			</attribute>
+			<component type="StaticModel" id="114">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="115">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.27769 -3.24811 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.02595 -0.0375438 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000513188 -0.00621967 0" />
+			</attribute>
+			<component type="StaticModel" id="115">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="116">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.80033 -0.946164 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0140934 0.00187589 0" />
+				<variant hash="273365031" type="Vector3" value="0.00288132 -0.0106055 0" />
+			</attribute>
+			<component type="StaticModel" id="116">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="117">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.44024 5.78673 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0143418 0.169683 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00135419 0.00863065 0" />
+			</attribute>
+			<component type="StaticModel" id="117">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="118">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.63946 3.08733 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.00634245 0.0402668 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00996674 -0.00425346 0" />
+			</attribute>
+			<component type="StaticModel" id="118">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="119">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.39608 -0.922458 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0291119 0.0507526 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00343574 0.00288283 0" />
+			</attribute>
+			<component type="StaticModel" id="119">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="120">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="5.06004 1.98532 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0429489 -0.100202 0" />
+				<variant hash="273365031" type="Vector3" value="0.00791674 0.0043017 0" />
+			</attribute>
+			<component type="StaticModel" id="120">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="121">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.94354 2.02273 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.00597 -0.0450282 0" />
+				<variant hash="273365031" type="Vector3" value="0.00724755 -0.000645041 0" />
+			</attribute>
+			<component type="StaticModel" id="121">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="122">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.82588 -1.47872 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0142221 -0.0454883 0" />
+				<variant hash="273365031" type="Vector3" value="0.00670964 -0.00370326 0" />
+			</attribute>
+			<component type="StaticModel" id="122">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="123">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.24684 4.42623 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.00558466 0.0346192 0" />
+				<variant hash="273365031" type="Vector3" value="0.000725382 0.0023778 0" />
+			</attribute>
+			<component type="StaticModel" id="123">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="124">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.16274 -5.00135 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0687681 0.0527533 0" />
+				<variant hash="273365031" type="Vector3" value="0.000666254 -0.0143811 0" />
+			</attribute>
+			<component type="StaticModel" id="124">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="125">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.58336 -4.30795 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0522385 0.0143805 0" />
+				<variant hash="273365031" type="Vector3" value="0.000582843 -0.00414909 0" />
+			</attribute>
+			<component type="StaticModel" id="125">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="126">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.846473 -0.826185 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.115873 -0.00563431 0" />
+				<variant hash="273365031" type="Vector3" value="0.0119088 0.0152773 0" />
+			</attribute>
+			<component type="StaticModel" id="126">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="127">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.862199 -2.32928 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0259904 0.0146789 0" />
+				<variant hash="273365031" type="Vector3" value="0.00864272 -0.0161007 0" />
+			</attribute>
+			<component type="StaticModel" id="127">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="128">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.44686 4.20343 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0999056 -0.0592218 0" />
+				<variant hash="273365031" type="Vector3" value="0.0243098 -0.0108785 0" />
+			</attribute>
+			<component type="StaticModel" id="128">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="129">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.66456 0.787353 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0647544 -0.0615515 0" />
+				<variant hash="273365031" type="Vector3" value="0.0146114 -0.000889235 0" />
+			</attribute>
+			<component type="StaticModel" id="129">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="130">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.08101 -2.13658 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0645176 -0.0316356 0" />
+				<variant hash="273365031" type="Vector3" value="0.0197972 0.0110227 0" />
+			</attribute>
+			<component type="StaticModel" id="130">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="131">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.74182 -4.16407 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0286587 -0.0191128 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000801865 -0.00477866 0" />
+			</attribute>
+			<component type="StaticModel" id="131">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="132">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.19525 -2.08282 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0731753 -0.0183372 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00283556 -0.0049358 0" />
+			</attribute>
+			<component type="StaticModel" id="132">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="133">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.61588 -2.76933 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0135744 -0.119988 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000839544 0.0129054 0" />
+			</attribute>
+			<component type="StaticModel" id="133">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="134">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.35026 2.70862 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.116982 -0.034996 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00759496 0.000467549 0" />
+			</attribute>
+			<component type="StaticModel" id="134">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="135">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.64542 -3.93927 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.00563821 -0.0141873 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0190063 -0.000563945 0" />
+			</attribute>
+			<component type="StaticModel" id="135">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="136">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.80353 3.85234 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0744039 0.0648459 0" />
+				<variant hash="273365031" type="Vector3" value="0.00251892 0.0060287 0" />
+			</attribute>
+			<component type="StaticModel" id="136">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="137">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.78621 3.65961 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0192903 -0.00480602 0" />
+				<variant hash="273365031" type="Vector3" value="0.0263052 0.0050237 0" />
+			</attribute>
+			<component type="StaticModel" id="137">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="138">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.594902 2.99691 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.043231 0.0101842 0" />
+				<variant hash="273365031" type="Vector3" value="0.00191296 -0.00101192 0" />
+			</attribute>
+			<component type="StaticModel" id="138">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="139">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.572564 -3.1222 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.133178 -0.0878928 0" />
+				<variant hash="273365031" type="Vector3" value="0.00911795 -0.00974313 0" />
+			</attribute>
+			<component type="StaticModel" id="139">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="140">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.11621 -4.49744 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0248995 0.00350046 0" />
+				<variant hash="273365031" type="Vector3" value="0.0193772 -0.0209553 0" />
+			</attribute>
+			<component type="StaticModel" id="140">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="141">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.0220656 -2.46318 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.10002 0.117275 0" />
+				<variant hash="273365031" type="Vector3" value="0.00077847 0.00437633 0" />
+			</attribute>
+			<component type="StaticModel" id="141">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="142">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.61095 0.620807 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.100517 -0.0463236 0" />
+				<variant hash="273365031" type="Vector3" value="0.00129558 -0.0182707 0" />
+			</attribute>
+			<component type="StaticModel" id="142">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="143">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.00731419 1.12907 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0350323 0.0419269 0" />
+				<variant hash="273365031" type="Vector3" value="0.00700824 -0.00504832 0" />
+			</attribute>
+			<component type="StaticModel" id="143">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="144">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.20801 2.1773 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0613604 -0.00861514 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0225917 0.00121908 0" />
+			</attribute>
+			<component type="StaticModel" id="144">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="145">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.47501 4.85683 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0190669 -0.135056 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00102953 0.00205927 0" />
+			</attribute>
+			<component type="StaticModel" id="145">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="146">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.01671 -1.26063 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0628461 0.0980136 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00333671 0.0094459 0" />
+			</attribute>
+			<component type="StaticModel" id="146">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="147">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.5626 -1.09468 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0222309 0.0105746 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00172492 -0.00658916 0" />
+			</attribute>
+			<component type="StaticModel" id="147">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="148">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.658333 1.83353 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.135216 -0.00273546 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0096302 0.00502348 0" />
+			</attribute>
+			<component type="StaticModel" id="148">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="149">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.93136 3.4134 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0594786 0.0200646 0" />
+				<variant hash="273365031" type="Vector3" value="0.000247572 0.00218766 0" />
+			</attribute>
+			<component type="StaticModel" id="149">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="150">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.92541 -3.59483 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.024577 0.0556701 0" />
+				<variant hash="273365031" type="Vector3" value="0.00525579 0.00191436 0" />
+			</attribute>
+			<component type="StaticModel" id="150">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="151">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.93627 0.368696 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.162374 -0.115873 0" />
+				<variant hash="273365031" type="Vector3" value="0.0023947 -0.00647805 0" />
+			</attribute>
+			<component type="StaticModel" id="151">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="152">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.08147 4.08999 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0488353 -0.00904989 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00329276 0.0165436 0" />
+			</attribute>
+			<component type="StaticModel" id="152">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="153">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.87444 -0.100598 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.066727 -0.105627 0" />
+				<variant hash="273365031" type="Vector3" value="0.00584693 -0.00727367 0" />
+			</attribute>
+			<component type="StaticModel" id="153">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="154">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.77292 1.15329 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.000747204 0.159726 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0145862 0.00639705 0" />
+			</attribute>
+			<component type="StaticModel" id="154">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="155">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.87169 -2.52159 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0183076 0.0251112 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00882717 -0.00299215 0" />
+			</attribute>
+			<component type="StaticModel" id="155">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="156">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.18567 3.65931 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0127601 -0.0228384 0" />
+				<variant hash="273365031" type="Vector3" value="0.0181789 -0.0052526 0" />
+			</attribute>
+			<component type="StaticModel" id="156">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="157">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.94385 4.2686 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.122784 -0.0213892 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00284188 0.0032524 0" />
+			</attribute>
+			<component type="StaticModel" id="157">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="158">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.44282 -2.45326 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0468268 0.0713667 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00068543 -0.000168585 0" />
+			</attribute>
+			<component type="StaticModel" id="158">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="159">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.84811 -2.39986 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.000617623 0.0246806 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0025408 -0.0108698 0" />
+			</attribute>
+			<component type="StaticModel" id="159">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="160">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.822027 0.985593 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0428777 -0.106318 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00131011 -0.00161775 0" />
+			</attribute>
+			<component type="StaticModel" id="160">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="161">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.82129 0.518095 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.132962 0.0906389 0" />
+				<variant hash="273365031" type="Vector3" value="0.000320456 0.0029226 0" />
+			</attribute>
+			<component type="StaticModel" id="161">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="162">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.64415 -4.40942 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0500395 0.0449361 0" />
+				<variant hash="273365031" type="Vector3" value="0.00445878 0.0100901 0" />
+			</attribute>
+			<component type="StaticModel" id="162">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="163">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.12958 3.09877 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0128192 0.120213 0" />
+				<variant hash="273365031" type="Vector3" value="0.00589757 -0.00651989 0" />
+			</attribute>
+			<component type="StaticModel" id="163">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="164">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.64295 5.17977 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0613074 0.0418144 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00467757 0.0112756 0" />
+			</attribute>
+			<component type="StaticModel" id="164">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="165">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.95052 -0.149185 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0788076 -0.145063 0" />
+				<variant hash="273365031" type="Vector3" value="0.00344959 0.00708582 0" />
+			</attribute>
+			<component type="StaticModel" id="165">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="166">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.64572 2.36822 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0516964 0.035816 0" />
+				<variant hash="273365031" type="Vector3" value="0.0119129 -0.00576788 0" />
+			</attribute>
+			<component type="StaticModel" id="166">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="167">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.41538 -2.89577 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.115837 -0.110531 0" />
+				<variant hash="273365031" type="Vector3" value="0.00957104 0.0154918 0" />
+			</attribute>
+			<component type="StaticModel" id="167">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="168">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.55162 -2.87251 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0691238 0.0158899 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00892754 0.0132614 0" />
+			</attribute>
+			<component type="StaticModel" id="168">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="169">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.12504 0.0168057 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0727563 0.0266485 0" />
+				<variant hash="273365031" type="Vector3" value="0.0047576 0.0185453 0" />
+			</attribute>
+			<component type="StaticModel" id="169">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="170">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.11433 4.53499 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0411091 -0.0430193 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00169388 -0.00159092 0" />
+			</attribute>
+			<component type="StaticModel" id="170">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="171">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.780259 1.58632 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0300282 0.0889551 0" />
+				<variant hash="273365031" type="Vector3" value="0.00487107 0.00994768 0" />
+			</attribute>
+			<component type="StaticModel" id="171">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="172">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.98555 -0.412237 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0114441 -0.0658919 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00446617 -0.000478853 0" />
+			</attribute>
+			<component type="StaticModel" id="172">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="173">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.987713 2.72177 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0135699 0.0275999 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00349333 0.0189381 0" />
+			</attribute>
+			<component type="StaticModel" id="173">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="174">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.4244 -1.67476 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0716702 -0.104711 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000478251 0.00244526 0" />
+			</attribute>
+			<component type="StaticModel" id="174">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="175">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.29051 -0.837773 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.165853 -0.0626856 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00799538 0.00332769 0" />
+			</attribute>
+			<component type="StaticModel" id="175">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="176">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.8834 -0.99639 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0546564 0.101253 0" />
+				<variant hash="273365031" type="Vector3" value="0.00721946 -0.00776614 0" />
+			</attribute>
+			<component type="StaticModel" id="176">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="177">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.97106 -3.7859 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.104196 -0.0198771 0" />
+				<variant hash="273365031" type="Vector3" value="0.00950025 -0.00515409 0" />
+			</attribute>
+			<component type="StaticModel" id="177">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="178">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.465414 3.89893 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0903425 0.0106374 0" />
+				<variant hash="273365031" type="Vector3" value="0.00990201 0.0169545 0" />
+			</attribute>
+			<component type="StaticModel" id="178">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="179">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.775598 0.736177 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0834742 -0.138224 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00825124 -0.000155865 0" />
+			</attribute>
+			<component type="StaticModel" id="179">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="180">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.41455 3.49272 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0269031 -0.00748467 0" />
+				<variant hash="273365031" type="Vector3" value="0.0137659 -0.0133046 0" />
+			</attribute>
+			<component type="StaticModel" id="180">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="181">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.31425 -1.72403 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0076744 0.0466256 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00833114 -0.0182267 0" />
+			</attribute>
+			<component type="StaticModel" id="181">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="182">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.23516 1.37802 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="0.0284663 0.000719041 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000493551 0.013681 0" />
+			</attribute>
+			<component type="StaticModel" id="182">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="183">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.807271 -0.123375 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.109804 0.0812584 0" />
+				<variant hash="273365031" type="Vector3" value="0.00928554 -0.00353123 0" />
+			</attribute>
+			<component type="StaticModel" id="183">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="184">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.20195 -3.67427 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0693664 -0.0052001 0" />
+				<variant hash="273365031" type="Vector3" value="0.0171139 -0.0104283 0" />
+			</attribute>
+			<component type="StaticModel" id="184">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="185">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.54609 -1.80059 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.00363374 -0.062127 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0074153 0.00814322 0" />
+			</attribute>
+			<component type="StaticModel" id="185">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="186">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.55008 -2.4618 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="0.0263877 0.0151643 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00143294 0.00796577 0" />
+			</attribute>
+			<component type="StaticModel" id="186">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="187">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.3289 2.08434 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="-0.0363307 0.0205413 0" />
+				<variant hash="273365031" type="Vector3" value="0.00487461 0.000540051 0" />
+			</attribute>
+			<component type="StaticModel" id="187">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="188">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.189147 -0.619586 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0592411 0.188874 0" />
+				<variant hash="273365031" type="Vector3" value="-0.000335185 -0.00120834 0" />
+			</attribute>
+			<component type="StaticModel" id="188">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="189">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.56419 1.23525 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0012203 -0.128648 0" />
+				<variant hash="273365031" type="Vector3" value="0.00542999 -0.0152358 0" />
+			</attribute>
+			<component type="StaticModel" id="189">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="190">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.69657 -0.841065 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0130311 0.117455 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0043716 0.0069388 0" />
+			</attribute>
+			<component type="StaticModel" id="190">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="191">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.0947527 -4.68953 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0354442 -0.0141233 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0075496 -0.00333954 0" />
+			</attribute>
+			<component type="StaticModel" id="191">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="192">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.425423 3.19742 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0542504 0.00401634 0" />
+				<variant hash="273365031" type="Vector3" value="0.00213877 0.00192211 0" />
+			</attribute>
+			<component type="StaticModel" id="192">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="193">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.60628 -2.6519 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.0617302 0.0759651 0" />
+				<variant hash="273365031" type="Vector3" value="0.00259258 0.00686096 0" />
+			</attribute>
+			<component type="StaticModel" id="193">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="194">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.14925 -1.72029 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="5" />
+				<variant hash="1965579627" type="Vector3" value="-0.0521069 -0.0346415 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0118353 -0.000725853 0" />
+			</attribute>
+			<component type="StaticModel" id="194">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Indigo.xml" />
+			</component>
+		</node>
+		<node id="195">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.93816 -0.332782 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="1" />
+				<variant hash="1965579627" type="Vector3" value="-0.00237239 -0.0774888 0" />
+				<variant hash="273365031" type="Vector3" value="0.00715272 -0.0127908 0" />
+			</attribute>
+			<component type="StaticModel" id="195">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Orange.xml" />
+			</component>
+		</node>
+		<node id="196">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.33461 4.43673 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="2" />
+				<variant hash="1965579627" type="Vector3" value="0.0398341 -0.13203 0" />
+				<variant hash="273365031" type="Vector3" value="0.00157384 -0.00659219 0" />
+			</attribute>
+			<component type="StaticModel" id="196">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Yellow.xml" />
+			</component>
+		</node>
+		<node id="197">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.270585 -1.3439 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.0632291 -0.134008 0" />
+				<variant hash="273365031" type="Vector3" value="-0.00366245 0.000561522 0" />
+			</attribute>
+			<component type="StaticModel" id="197">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="198">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.093555 0.0388103 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.134162 0.00910747 0" />
+				<variant hash="273365031" type="Vector3" value="0.000993137 0.00597694 0" />
+			</attribute>
+			<component type="StaticModel" id="198">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="199">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.53976 0.711546 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="-0.204753 0.146853 0" />
+				<variant hash="273365031" type="Vector3" value="0.00557477 0.00476982 0" />
+			</attribute>
+			<component type="StaticModel" id="199">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="200">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.453364 -1.41382 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0449295 -0.06405 0" />
+				<variant hash="273365031" type="Vector3" value="0.00488954 0.00372734 0" />
+			</attribute>
+			<component type="StaticModel" id="200">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+		<node id="201">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.63952 0.920414 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="2793072227" type="Int" value="6" />
+				<variant hash="1965579627" type="Vector3" value="0.0996432 -0.084322 0" />
+				<variant hash="273365031" type="Vector3" value="-0.0263403 -0.00624643 0" />
+			</attribute>
+			<component type="StaticModel" id="201">
+				<attribute name="Model" value="Model;Models/Molecule.mdl" />
+				<attribute name="Material" value="Material;Materials/Violet.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="5">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="ContainerBottom" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 10" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="6.7082 6.7082 6.7082" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="5">
+			<attribute name="Model" value="Model;Models/ContainerBottom.mdl" />
+			<attribute name="Material" value="Material;Materials/ContainerBottom.xml" />
+		</component>
+	</node>
+	<node id="6">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Camera" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -20" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Camera" id="6">
+			<attribute name="Near Clip" value="0" />
+			<attribute name="Aspect Ratio" value="1.27778" />
+			<attribute name="Orthographic" value="true" />
+		</component>
+	</node>
+</scene>

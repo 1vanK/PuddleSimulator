@@ -1,0 +1,7 @@
+<renderpath>
+    <command type="quad" tag="Vignette" vs="Vignette" ps="Vignette" output="viewport">
+        <parameter name="VignetteRadius" value="0.75" />
+        <parameter name="VignetteSoftness" value="0.45" />
+        <texture unit="diffuse" name="viewport" />
+    </command>
+</renderpath>

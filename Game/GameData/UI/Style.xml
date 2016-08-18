@@ -1,0 +1,73 @@
+<elements>
+
+    <element type="TurnsText">
+        <attribute name="Font" value="Font;Fonts/Ubuntu-BI.ttf" />
+        <attribute name="Font Size" value="80" />
+        <attribute name="Color" value="1 1 1 1" />
+        <attribute name="Text Effect" value="Stroke" />
+        <attribute name="Stroke Thickness" value="2" />
+        <attribute name="Round Stroke" value="true" />
+        <attribute name="Horiz Alignment" value="Left" />
+        <attribute name="Vert Alignment" value="Top" />
+        <attribute name="Position" value="10 -10" />
+    </element>
+
+    <element type="BorderImage" >
+        <attribute name="Texture" value="Texture2D;Textures/GameUI.png" />
+        <attribute name="Blend Mode" value="alpha" />
+    </element>
+
+    <!-- В игре используется производный тип MyButton, а не Button. -->
+    <!-- Фон кнопки -->
+    <element type="ColorButton" style="BorderImage">
+        <attribute name="Horiz Alignment" value="Right" />
+        <attribute name="Vert Alignment" value="Center" />
+        <attribute name="Size" value="64 64" />
+        <attribute name="Image Rect" value="0 0 64 64" />
+        <attribute name="Focus Mode" value="ResetFocus" />
+        <!-- Блик и рамка -->
+        <element type="BorderImage">
+            <attribute name="Size" value="64 64" />
+            <attribute name="Image Rect" value="0 64 64 128" />
+        </element>
+    </element>
+
+    <element type="PrevButton" style="BorderImage">
+        <attribute name="Size" value="70 70" />
+        <attribute name="Image Rect" value="0 128 70 198" />
+        <attribute name="Focus Mode" value="ResetFocus" />
+        <element type="BorderImage">
+            <attribute name="Size" value="70 70" />
+            <attribute name="Image Rect" value="70 128 140 198" />
+        </element>
+    </element>
+
+    <element type="ReplayButton" style="BorderImage">
+        <attribute name="Size" value="70 70" />
+        <attribute name="Image Rect" value="0 128 70 198" />
+        <attribute name="Focus Mode" value="ResetFocus" />
+        <element type="BorderImage">
+            <attribute name="Size" value="70 70" />
+            <attribute name="Image Rect" value="140 128 210 198" />
+        </element>
+    </element>
+
+    <element type="NextButton" style="BorderImage">
+        <attribute name="Size" value="70 70" />
+        <attribute name="Image Rect" value="0 128 70 198" />
+        <attribute name="Focus Mode" value="ResetFocus" />
+        <element type="BorderImage">
+            <attribute name="Size" value="70 70" />
+            <attribute name="Image Rect" value="210 128 280 198" />
+        </element>
+    </element>
+    
+    <!-- Дискета -->
+    <element type="FloppyImage" style="BorderImage">
+        <attribute name="Horiz Alignment" value="Center" />
+        <attribute name="Vert Alignment" value="Center" />
+        <attribute name="Size" value="128 128" />
+        <attribute name="Image Rect" value="64 0 192 128" />
+    </element>
+
+</elements>

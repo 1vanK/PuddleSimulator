@@ -1,0 +1,6 @@
+<renderpath>
+    <command type="quad" tag="Fade" vs="Fade" ps="Fade" output="viewport">
+        <texture unit="diffuse" name="viewport" />
+        <parameter name="FadeValue" value="0.0" />
+    </command>
+</renderpath>
