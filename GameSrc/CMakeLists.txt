@@ -29,7 +29,6 @@ if (COMMAND cmake_policy)
     endif ()
 endif ()
 
-project (MyProjectName)
 include (Urho3D-CMake-common)
 define_source_files ()
 setup_main_executable ()
